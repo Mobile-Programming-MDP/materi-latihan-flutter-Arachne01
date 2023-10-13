@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Klee",
+      title: "Broo",
       theme: ThemeData(primarySwatch: Colors.lime),
       home: FirstScreen
     )
@@ -28,7 +28,7 @@ class FirstScreen extends StatelessWidget {
           title: const Text("Klee"),
         ),
         body: const Center(
-          child: Text("Halo Klee"),
+          child: Text("Halo Broo"),
         ),
       ),
     );
